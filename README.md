@@ -14,8 +14,10 @@ datapackage:
       fields:
       - name: year
         type: date
-      - name: co2
+      - name: blah
         type: number
+      - name: data-systems
+        type: text
 ---
 
 Here's some text.
