@@ -27,8 +27,8 @@ The data files will be automatically displayed here.
 We can add a chart:
 
 <LineChart
-  data="./data.csv"
-  title="C02 per decade"
+  data="./Data-systems-mapping.csv"
+  title="Data systems"
   xAxis="year"
-  yAxis="co2"
+  yAxis="blah"
 />
