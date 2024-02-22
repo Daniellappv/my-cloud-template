@@ -1,0 +1,105 @@
+Theme ,Method / description,Data collected ,Purpose ,Software/system used,Freq of use ,Process,Problems ,Ideal solution 
+Clinical data,"Master data tracker   
+(Data storage)
+Where all anonymised participant clinical outcomes data is kept ","Anonymised clinical outcomes (Hip Disability and Osteoarthritis Outcome Score, Knee Injury and Osteoarthritis Outcome Score, Musculoskeletal Health Questionnaire) 
+Participant demographic info (age, gender, ethnicity, post code)
+Venue info (site name, physical location)","Clinical effectiveness
+Quality assurance
+Site reports -> used to justify continued funding",Excel database,>monthly,"ESCAPE-pain team send a quarterly email to all active/ paused/ starting soon sites requesting any data from that quarter. 
+
+1. Download data from portal, one joint at a time (knee, hip or back) with (pre/post data together) for a specified time period is downloaded. Output: CSV/EXL
+2. CSV from portal needs to be formatted to match 'Master data tracker', then cross referenced for each PT ID, against the master data tracker, to ensure that no duplicates get pasted across. 
+3. Clinical outcome data can also be collected by paper forms (for participants that do not want to engage digitally). Paper data collected from sites gets inputted into excel sheets. Quarterly, these get returned to us as email attachments. Each spreadsheet then needs to be formatted to match 'Master data tracker', then copied and pasted across to the 'Master data tracker' 
+4. Participant IDs and site names need to be checked and recoded.
+5. Cohort retention data is also collected. This is collected via Microsoft forms using power automate. Providers, click on the link in the quarterly 'call out for data' email that is sent, to enter this information.  
+6. Provider level reports are generated manually uaing excel and powerpoint.  Site reports provide sites with analysis of their data and benchmarking against the national / collated data we have. To create a report,  the 'Master tracker' is filtered for that provider's site(s), averages are taken from the embeded formulas within the 'Master tracker', averages for each measure are then put into another template excel sheet that produces graphs based on the data, graphs are copied in pasted into a PPT. Data on starter/completers is viewed through a separate excel sheet and used to calculate the retention rate, then inputted into the PPT. The number of people who completed the programme is then used to manually calculate cost savings. Collated data for all sites are used to show benchmarking figures.
+7. PPT's sent by email 
+","Outcomes portal can only download data in smaller time frames (approx 2-3 month periods), this will reduce further as more sites are added/more data inputted.
+
+Manual merge (copy and paste) and cross referencing of data points into a larger excel database is timeconsuming and increases risk of entry errors. 
+
+Sites dont always email us their data or put it in the correct format, resulting in data loss. 
+
+4 separate / disjointed systems that need all feed into the manual creation of reports. 
+
+Manual reports using powerpoint and excel.Time intensive and open to error 
+It is hard to get accurate participants IDs (we have to number these ourselves and the ID is automatically generated when you download from the outcomes portal but not from the paper questionnaire spreadsheet).
+","
+The ideal solution would span both of these themes, with 1 systems. 
+
+Ideally:
+One system whereby clinical data can be inputted digitally by sites as well as us as a central team
+
+Drop down fields to reduce entry errors 
+
+Ability for sites to view / pull analysed data as when desired (i.e site level dashboards)
+
+Automatic national data dashboard viewable by us (central team) only. 
+
+Site data automation from system directly into google maps 
+
+Facilitator/site ability to update the information on their 'site record'
+
+Training records integration into site level records 
+
+Stronger reporting mechanisms / automatic analysis and dashboard stats for national picture of site data - beyond clinical data. 
+
+
+
+
+
+
+
+
+
+
+
+
+"
+,"Outcomes portal 
+(Data collection)
+Participant facing web based data collection tool ",,,Web based tool,>monthly,,,
+,"Paper data 
+(Data collection)
+hard copy data (forms) collected from participants who cannot/will not engage with outcomes portal",,,Emails with excel sheets ,>quarterly,,,
+,"Starter /completer numbers
+(Data collection)
+Retention data 
+","Number of participants started / completed 75% of programme
+Cohort dates 
+Venue info",,MS forms using power automate,quarterly ,,,
+,"
+Reports 
+",,,"
+PPT ","
+>quarterly",,,
+Operations ,"Site tracker (incl. google maps, facilitator training information)","
+Fields include: Site name, organisation, site type, status (active, inactive, paused, starting soon, etc.), site type, sector type, cost, start date, referral pathway info, key information, UKRI project status, site leads - contact info, address of venue, website, social media handles, phone number, training records (i.e. who has been trained from this site), notes on site, ESCAPE-pain for backs status, and more. ","
+Site tracker is inputted with various data, the system is meant to give us an overview of site and training activity in various formats so that this can be used for tracking, communications and reporting. ","
+Access database
+Excel
+Google maps","
+Daily / weekly","We use this system almost daily, to enter in site details. This is whereby 'new' and 'existing' sites update us with information (usually via email) that then needs to be inputted into their 'site record'. 
+
+Facilitator training records are also kept on the site tracker. There are three different spreadsheets displaying information for each course type. The information is linked to organisations, so if the organisation is displayed correctly (often it is not) then the people trained would automatically populate into that site's record. Updating these spreadsheets is a manual process taken from course registrations done via wordpress/woocomerce. We also send certificates of attendance which is a manual process. 
+
+Site information is filtered and pulled via the query function, to provide data for our google maps. By clicking 'export google map data' on the site tracker, we get a spreadsheet of data fields needed, we then copy and paste this into an excel sheet and sort the data into different categories (i.e. active sites, paused sites, starting soon, virtual sites) each of these need to be saved as a separate spreadsheet then uploaded to google maps as different 'layers', replacing the old layers with the new data.  The Google maps are hyperlinked from our website. When new sites give details, they also need to be set up on the data portal - see above clinical outcomes section. 
+
+Dashboard information can be viewed through the 'dashboard button' pulling the following queries: Summary of sites, summary of statuses, sectors, geography, training figures, etc. 
+
+","
+Access is clunky and not user friendly
+
+The system constantly creates duplicate copies, overwriting data,  leading to confusion about which copy is up to date- resulting in loss of information and risks to business continuity - as this holds all of our data on sites. 
+
+We are reliant on sites to email us and let us know any updates they have, which means records are often out of date/incorrect
+
+Google maps is an onerous manual process, that relies on data supplied to us from sites. 
+
+Site updates - or lack there of, directly impact whether the site is registered on the outcomes portal (mentioned in clinical outcomes section). We manually register them on the portal when they alert us of their start date - but they often forget. ",
+,,,,,,,,
+,,,,,,,,
+,Finance,"Fields include: date of course booked, orangisation, site name name, attendee name, billing information, amount paid, etc. ",Tracking payments to ensure reciept ,Excel ,>weekly ,"
+Information is taken from individual registrations and inputted into an excel sheet for tracking and chased up for invoicing etc. 
+The information also has to be sent directly to our CFO to raise the invoices, if the registrant has chosen pay by invoice. ","
+Cumbersome multi step process with lots of manual tracking and chasing. ",
